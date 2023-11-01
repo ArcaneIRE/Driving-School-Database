@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="70B9D0BE-5E96-CF39-9C21-4AC0F9537482" name="Booking">
+<createdBy>David</createdBy>
+<createdTime>2023-11-01 03:24:02 UTC</createdTime>
+<ownerDesignName>drivingSchool</ownerDesignName>
+<engineerTo>
+<item key="8DDED7F0-2920-9C83-1BD5-DFA73B297B61" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="7CC9A8C2-34C6-8C73-6F32-DBC786D9B2B2">
+<createdBy>David</createdBy>
+<createdTime>2023-11-01 03:24:13 UTC</createdTime>
+<ownerDesignName>drivingSchool</ownerDesignName>
+<engineerTo>
+<item key="8DDED7F0-2920-9C83-1BD5-DFA73B297B61" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cost" id="12877969-7A6F-73BB-5E00-FB585ED35D58">
+<createdBy>David</createdBy>
+<createdTime>2023-11-01 03:24:30 UTC</createdTime>
+<ownerDesignName>drivingSchool</ownerDesignName>
+<engineerTo>
+<item key="8DDED7F0-2920-9C83-1BD5-DFA73B297B61" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="F2EA0C5E-23D1-73D0-3412-77E0FCF56520">
+<createdBy>David</createdBy>
+<createdTime>2023-11-01 03:31:14 UTC</createdTime>
+<generatorID>3599093F-574A-4FDC-0E04-0BF5EAC0D685</generatorID>
+<ownerDesignName>drivingSchool</ownerDesignName>
+<engineerTo>
+<item key="8DDED7F0-2920-9C83-1BD5-DFA73B297B61" value="true"/>
+</engineerTo>
+<referedAttribute>646790C9-44B3-8947-6379-A714B3BC3A5E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="registrationNo" id="55FC33C3-CCCE-EB96-374A-477C40CC60B0">
+<createdBy>David</createdBy>
+<createdTime>2023-11-01 03:31:20 UTC</createdTime>
+<generatorID>2FD47C87-9297-039F-9908-63C6FF642AA4</generatorID>
+<ownerDesignName>drivingSchool</ownerDesignName>
+<engineerTo>
+<item key="8DDED7F0-2920-9C83-1BD5-DFA73B297B61" value="true"/>
+</engineerTo>
+<referedAttribute>CC10E696-EE31-DFA7-66F9-AAC7623D8EE7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="E4FF7153-26DB-B8D8-44CE-842417EAE8EA">
+<createdBy>David</createdBy>
+<createdTime>2023-11-01 03:31:35 UTC</createdTime>
+<generatorID>9E95D996-DD51-8E88-3C68-91BA80BC926E</generatorID>
+<ownerDesignName>drivingSchool</ownerDesignName>
+<engineerTo>
+<item key="8DDED7F0-2920-9C83-1BD5-DFA73B297B61" value="true"/>
+</engineerTo>
+<referedAttribute>B65473DF-0E77-5412-3415-F2EC0356B0F0</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id3" id="3FC9AC0E-BEE8-2878-07CF-CDDB51594710">
+<createdBy>David</createdBy>
+<createdTime>2023-11-01 03:31:39 UTC</createdTime>
+<generatorID>218756F7-32E9-E978-5A9F-32E6F25AED8A</generatorID>
+<ownerDesignName>drivingSchool</ownerDesignName>
+<engineerTo>
+<item key="8DDED7F0-2920-9C83-1BD5-DFA73B297B61" value="true"/>
+</engineerTo>
+<referedAttribute>8308E25E-8DBF-9BFA-CB9F-1A3EECF18782</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DF393AB9-EC9A-C836-ADA8-2D049B71D76F" name="Booking PK">
+<createdBy>David</createdBy>
+<createdTime>2023-11-01 03:24:16 UTC</createdTime>
+<ownerDesignName>drivingSchool</ownerDesignName>
+<engineerTo>
+<item key="8DDED7F0-2920-9C83-1BD5-DFA73B297B61" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7CC9A8C2-34C6-8C73-6F32-DBC786D9B2B2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

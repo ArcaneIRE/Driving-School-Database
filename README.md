@@ -18,9 +18,9 @@ The digitisation of a driving school record system to a PostgreSQL database. Inv
 
 1. ERD in Oracle Data Modeller
     - [ ] Logical and Relational Model
-    - [ ] Columns hidden
+    - [x] Columns hidden
         > view details -> columns only
-    - [ ] Accessible reading format
+    - [x] Accessible reading format
         > right click -> select all -> change format (?)
     - [ ] `CREATE` statements generated from the model
 2. Tables created in group schema on uni DB

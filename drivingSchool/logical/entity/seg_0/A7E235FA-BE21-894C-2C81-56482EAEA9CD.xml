@@ -1,0 +1,58 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A7E235FA-BE21-894C-2C81-56482EAEA9CD" name="LessonTopic">
+<createdBy>David</createdBy>
+<createdTime>2023-11-01 03:29:03 UTC</createdTime>
+<ownerDesignName>drivingSchool</ownerDesignName>
+<engineerTo>
+<item key="8DDED7F0-2920-9C83-1BD5-DFA73B297B61" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="8308E25E-8DBF-9BFA-CB9F-1A3EECF18782">
+<createdBy>David</createdBy>
+<createdTime>2023-11-01 03:29:10 UTC</createdTime>
+<ownerDesignName>drivingSchool</ownerDesignName>
+<engineerTo>
+<item key="8DDED7F0-2920-9C83-1BD5-DFA73B297B61" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="topic" id="7C943E83-F65D-270B-03EB-385BB7F53EA5">
+<createdBy>David</createdBy>
+<createdTime>2023-11-01 03:29:18 UTC</createdTime>
+<ownerDesignName>drivingSchool</ownerDesignName>
+<engineerTo>
+<item key="8DDED7F0-2920-9C83-1BD5-DFA73B297B61" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>300 CHAR</dataTypeSize>
+<ownDataTypeParameters>300 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="05C73A97-75E4-A811-984D-7CAF1CA7EECB" name="LessonTopic PK">
+<createdBy>David</createdBy>
+<createdTime>2023-11-01 03:29:16 UTC</createdTime>
+<ownerDesignName>drivingSchool</ownerDesignName>
+<engineerTo>
+<item key="8DDED7F0-2920-9C83-1BD5-DFA73B297B61" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8308E25E-8DBF-9BFA-CB9F-1A3EECF18782</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

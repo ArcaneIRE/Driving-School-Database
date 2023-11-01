@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="drivingSchool" id="C62C12F7-2356-AB41-3B8D-980C4A2DF691" version="3.5">
+<createdBy>David</createdBy>
+<createdTime>2023-11-01 03:18:58 UTC</createdTime>
+<ownerDesignName>drivingSchool</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C62C12F7-2356-AB41-3B8D-980C4A2DF691</designId>
+</OSDM_Design>

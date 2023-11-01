@@ -1,0 +1,122 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FF5A3914-5FF3-B294-6221-8BA9E612F041" name="BookingTimeSlot">
+<createdBy>David</createdBy>
+<createdTime>2023-11-01 03:31:55 UTC</createdTime>
+<generatorID>A91EDF3F-C8CF-ED6B-D0C1-A7BAE0ADBA19</generatorID>
+<ownerDesignName>drivingSchool</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="26C6A287-4ED0-A1FD-3E4A-9387FF06C24A">
+<createdBy>David</createdBy>
+<createdTime>2023-11-01 03:31:55 UTC</createdTime>
+<generatorID>1B2B740C-0CEB-4318-FEED-85F5324985BF</generatorID>
+<ownerDesignName>drivingSchool</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="startTime" id="7D76342D-3EE4-8C09-E935-2BB3467B26C9">
+<createdBy>David</createdBy>
+<createdTime>2023-11-01 03:31:55 UTC</createdTime>
+<generatorID>B69586BF-6A3E-0E70-3B0A-75C6181EA829</generatorID>
+<ownerDesignName>drivingSchool</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="endTime" id="B0C62996-0D6A-23DC-50EC-D2D50F4CA1F0">
+<createdBy>David</createdBy>
+<createdTime>2023-11-01 03:31:55 UTC</createdTime>
+<generatorID>671626D2-8E19-993B-D04E-1A2218CFA247</generatorID>
+<ownerDesignName>drivingSchool</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Booking_id" id="CC8B778E-3F2A-D948-77FB-94FB27F800E9">
+<createdBy>David</createdBy>
+<createdTime>2023-11-01 03:31:55 UTC</createdTime>
+<generatorID>18FBE040-1E08-A942-F1AB-3DE6323A27AF</generatorID>
+<ownerDesignName>drivingSchool</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0E0CABDF-D167-135D-3203-56C08F91036C" referredColumn="049FDADF-0C7C-DC6C-4219-44FF3B645B40"/>
+</associations>
+</Column>
+<Column name="Staff_id" id="48544CFD-FB1C-6D0C-AEAC-0586B91044E6">
+<createdBy>David</createdBy>
+<createdTime>2023-11-01 03:31:55 UTC</createdTime>
+<generatorID>49BCF0B8-85D9-1AA0-4FAE-510406E2ACF3</generatorID>
+<ownerDesignName>drivingSchool</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1AC5C964-D828-6E4D-0E4B-8BDC9BAD3CEF" referredColumn="1E3C7F9D-18FA-01FE-DCB6-C61CA1CD55F9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4FF78E65-BB10-A0DB-2B8D-955EAEE737C5" name="BookingTimeSlot_PK">
+<createdBy>David</createdBy>
+<createdTime>2023-11-01 03:31:55 UTC</createdTime>
+<generatorID>6C173CEA-A822-A519-8857-5FDC225DBFAD</generatorID>
+<ownerDesignName>drivingSchool</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26C6A287-4ED0-A1FD-3E4A-9387FF06C24A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E43315C9-2ED5-9483-B76A-7960C3E7C423" name="BookingTimeSlot__IDX">
+<createdBy>David</createdBy>
+<createdTime>2023-11-01 03:31:55 UTC</createdTime>
+<ownerDesignName>drivingSchool</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>A425DE56-8580-49BF-8A40-32A56617D7FD</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="CC8B778E-3F2A-D948-77FB-94FB27F800E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8AA8173E-2233-9BF0-00FA-5BAFFCFAB22F" name="BookingTimeSlot_Booking_FK">
+<createdBy>David</createdBy>
+<createdTime>2023-11-01 03:31:55 UTC</createdTime>
+<generatorID>A425DE56-8580-49BF-8A40-32A56617D7FD</generatorID>
+<ownerDesignName>drivingSchool</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC8B778E-3F2A-D948-77FB-94FB27F800E9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A81C62A-3C0A-6547-7CDE-DABC85A26BDF" name="BookingTimeSlot_Staff_FK">
+<createdBy>David</createdBy>
+<createdTime>2023-11-01 03:31:55 UTC</createdTime>
+<generatorID>D2BCF575-E200-72A5-A526-048798B7A8B2</generatorID>
+<ownerDesignName>drivingSchool</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="48544CFD-FB1C-6D0C-AEAC-0586B91044E6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,153 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D16E6D2A-899F-F844-3676-5FAB3A099706" name="Booking">
+<createdBy>David</createdBy>
+<createdTime>2023-11-01 03:31:55 UTC</createdTime>
+<generatorID>70B9D0BE-5E96-CF39-9C21-4AC0F9537482</generatorID>
+<ownerDesignName>drivingSchool</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="049FDADF-0C7C-DC6C-4219-44FF3B645B40">
+<createdBy>David</createdBy>
+<createdTime>2023-11-01 03:31:55 UTC</createdTime>
+<generatorID>7CC9A8C2-34C6-8C73-6F32-DBC786D9B2B2</generatorID>
+<ownerDesignName>drivingSchool</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cost" id="CACD4AB5-319D-B03B-A14C-8ADA209D2D62">
+<createdBy>David</createdBy>
+<createdTime>2023-11-01 03:31:55 UTC</createdTime>
+<generatorID>12877969-7A6F-73BB-5E00-FB585ED35D58</generatorID>
+<ownerDesignName>drivingSchool</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Student_id" id="9F3E3356-AA21-7C11-85C4-584094FC4170">
+<createdBy>David</createdBy>
+<createdTime>2023-11-01 03:31:55 UTC</createdTime>
+<generatorID>F2EA0C5E-23D1-73D0-3412-77E0FCF56520</generatorID>
+<ownerDesignName>drivingSchool</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="29422959-FB90-257F-FD09-60EFB5997730" referredColumn="B866D78E-624A-AC0B-5D61-414689CE5AC3"/>
+</associations>
+</Column>
+<Column name="Car_registrationNo" id="0345A7CE-4F91-B7F7-0C99-594E9D74D3C3">
+<createdBy>David</createdBy>
+<createdTime>2023-11-01 03:31:55 UTC</createdTime>
+<generatorID>55FC33C3-CCCE-EB96-374A-477C40CC60B0</generatorID>
+<ownerDesignName>drivingSchool</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="13B66DE5-AB78-36FF-A3C0-F7B9BB4E84F5" referredColumn="598701B4-61A7-86A3-D5AA-335C85CD81F8"/>
+</associations>
+</Column>
+<Column name="lessonStatus_id" id="EE0FEC33-EBB9-32F2-7A4E-7ADECDDB8DAD">
+<createdBy>David</createdBy>
+<createdTime>2023-11-01 03:31:55 UTC</createdTime>
+<generatorID>E4FF7153-26DB-B8D8-44CE-842417EAE8EA</generatorID>
+<ownerDesignName>drivingSchool</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FB76F407-DCA2-CA8B-D679-F5B3A25EA96E" referredColumn="6C8CA12C-AED0-330E-2194-ECD8D863C098"/>
+</associations>
+</Column>
+<Column name="LessonTopic_id" id="91259A1A-CF0B-6FA0-C3E1-35E82DA52E9A">
+<createdBy>David</createdBy>
+<createdTime>2023-11-01 03:31:55 UTC</createdTime>
+<generatorID>3FC9AC0E-BEE8-2878-07CF-CDDB51594710</generatorID>
+<ownerDesignName>drivingSchool</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FFBD8A0F-C00F-D135-13EE-41E9733DD229" referredColumn="67043093-32E8-43CE-2467-6B2FD7708D63"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="51B58948-4153-A764-71B1-A23846BB5BD4" name="Booking_PK">
+<createdBy>David</createdBy>
+<createdTime>2023-11-01 03:31:55 UTC</createdTime>
+<generatorID>DF393AB9-EC9A-C836-ADA8-2D049B71D76F</generatorID>
+<ownerDesignName>drivingSchool</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="049FDADF-0C7C-DC6C-4219-44FF3B645B40"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA73C2F7-C75B-C9E8-E297-F9901DC40FE3" name="Booking_Student_FK">
+<createdBy>David</createdBy>
+<createdTime>2023-11-01 03:31:55 UTC</createdTime>
+<generatorID>3599093F-574A-4FDC-0E04-0BF5EAC0D685</generatorID>
+<ownerDesignName>drivingSchool</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9F3E3356-AA21-7C11-85C4-584094FC4170"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05756D4F-7707-769E-17AA-64898DF03A88" name="Booking_Car_FK">
+<createdBy>David</createdBy>
+<createdTime>2023-11-01 03:31:55 UTC</createdTime>
+<generatorID>2FD47C87-9297-039F-9908-63C6FF642AA4</generatorID>
+<ownerDesignName>drivingSchool</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0345A7CE-4F91-B7F7-0C99-594E9D74D3C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="46B0B2E5-981F-835C-E80F-2C48C59531BD" name="Booking_lessonStatus_FK">
+<createdBy>David</createdBy>
+<createdTime>2023-11-01 03:31:55 UTC</createdTime>
+<generatorID>9E95D996-DD51-8E88-3C68-91BA80BC926E</generatorID>
+<ownerDesignName>drivingSchool</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EE0FEC33-EBB9-32F2-7A4E-7ADECDDB8DAD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E294992D-60DC-18BF-1A95-665133D493A2" name="Booking_LessonTopic_FK">
+<createdBy>David</createdBy>
+<createdTime>2023-11-01 03:31:55 UTC</createdTime>
+<generatorID>218756F7-32E9-E978-5A9F-32E6F25AED8A</generatorID>
+<ownerDesignName>drivingSchool</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91259A1A-CF0B-6FA0-C3E1-35E82DA52E9A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
