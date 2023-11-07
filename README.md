@@ -41,11 +41,11 @@ The digitisation of a driving school record system to a PostgreSQL database. Inv
     - [ ] Explanation of this role in your personal word document
     - [ ] *Use your own student schema to work on the tables in the group schema when needed*
 2. Programmed Transaction and Trigger - 3 marks
-    - [ ] PLpgSQL function or procedure with parameters to run a transaction to change data in the DB
-      - [ ] Separate SQL file
-      - [ ] Commented
+    - [x] PLpgSQL function or procedure with parameters to run a transaction to change data in the DB
+      - [x] Separate SQL file
+      - [x] Commented
       - [ ] Must include decision making
-      - [ ] Must include error checking
+      - [x] Must include error checking
     - [ ] Constraint Trigger
         - [ ] Separate SQL file
         - [ ] Commented
