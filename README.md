@@ -46,9 +46,9 @@ The digitisation of a driving school record system to a PostgreSQL database. Inv
       - [x] Commented
       - [ ] Must include decision making
       - [x] Must include error checking
-    - [ ] Constraint Trigger
-        - [ ] Separate SQL file
-        - [ ] Commented
+    - [x] Constraint Trigger
+        - [x] Separate SQL file
+        - [x] Commented
     - [ ] Python Program
       - [ ] Call function
       - [ ] Handle output
