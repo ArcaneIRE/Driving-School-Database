@@ -53,4 +53,11 @@ The digitisation of a driving school record system to a PostgreSQL database. Inv
       - [ ] Call function
       - [ ] Handle output
 
-## Case Study Summary
+## Case Study Summary (Summarized by ChatGPT)
+
+- Current offline system for student bookings and instructor schedules with data stored in a computer system.
+- The Managing Director aims to digitize the system.
+- Students must register with a unique number and book an assessment lesson.
+- Booking staff handle registrations, contact students with assessment results, and schedule lessons.
+- Students can book lessons with registered instructors, choose to use company cars (with an extra fee), or bring their own vehicles.
+- Instructors manage schedules through paper diaries.
