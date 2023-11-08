@@ -11,12 +11,12 @@ try:
         port="5432",
         database="postgres")
     cursor = connection.cursor()
-    postgreSQL_select_Query = 'select * from "Drive856A".timetableslots;'
-    cursor.execute(postgreSQL_select_Query)
-    df = pd.DataFrame(
+    select_query = 'select * from "Drive856A".timetableslots;'
+    cursor.execute(select_query)
+    dataframe = pd.DataFrame(
         cursor.fetchall(),
         columns=['', '', '', '', '', '', '', ''])
-    print(df)
+    print(dataframe)
 
     cursor.execute(
         """ call "REM856A".add_timeslot(11, '14:30', '15:30', NULL, 4); """)
