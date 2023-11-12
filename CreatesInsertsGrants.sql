@@ -122,3 +122,9 @@ Grant usage on schema "Drive856A" to "D18124733";
 grant all on table student to "D18124733";
 grant update on sequence student_id_seq to "D18124733";
 
+Grant usage on schema "Drive856A" to "D22126022";
+grant SELECT on table staff to "D22126022";
+grant all on table bookingtimeslot to "D22126022";
+grant INSERT on table timeslot_log to "D22126022";
+grant UPDATE on table timeslot_log to "D22126022";
+GRANT ALL ON PROCEDURE "Drive856A".add_timeslot TO "D22126022";
