@@ -1,4 +1,4 @@
--- Procedure File
+-- Create Procedure
 create or replace procedure add_timeslot(
 p_id bookingtimeslot.id%type,
 p_starttime bookingtimeslot.starttime%type,
@@ -17,8 +17,8 @@ if (select count(id) from staff where id = p_staff_id) != 1 then
 raise exception 'Staff ID does not exist';
 end if;
 -- Insert slot
-insert into bookingtimeslot
-values(p_id,
+insert into "D22126022".bookingtimeslot
+values(DEFAULT,
 p_starttime,
 p_endtime,
 p_booking_id,
